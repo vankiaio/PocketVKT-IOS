@@ -18,7 +18,7 @@
 
 
 // java interface
-#define REQUEST_APIPATH [NSString stringWithFormat: @"/api_oc_blockchain-v1.3.0%@", [self requestUrlPath]]
+#define REQUEST_APIPATH [NSString stringWithFormat: @"/api_oc_blockchain-v1.0.0%@", [self requestUrlPath]]
 
 // nakedAddress
 //#define REQUEST_APIPATH [NSString stringWithFormat: @"/v1/chain%@", [self requestUrlPath]]

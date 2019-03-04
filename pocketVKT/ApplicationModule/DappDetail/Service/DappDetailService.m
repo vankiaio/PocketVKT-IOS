@@ -226,7 +226,7 @@
         [outerNetworkingManager.responseSerializer setAcceptableContentTypes: [NSSet setWithObjects:@"application/json", @"text/plain",@"text/json", @"text/javascript", nil]];
 
 
-        NSString *url = [NSString stringWithFormat:@"%@/api_oc_blockchain-v1.3.0/abi_bin_to_json", REQUEST_HTTP_BASEURL];
+        NSString *url = [NSString stringWithFormat:@"%@/api_oc_blockchain-v1.0.0/abi_bin_to_json", REQUEST_HTTP_BASEURL];
 
 
         [outerNetworkingManager POST: url parameters: [self.abi_bin_to_jsonRequest parameters] progress:^(NSProgress * _Nonnull downloadProgress) {
