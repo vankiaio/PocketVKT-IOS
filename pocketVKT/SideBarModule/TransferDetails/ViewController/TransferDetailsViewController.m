@@ -212,8 +212,8 @@
 - (void)footerBtnDidClick{
     DAppDetailViewController *vc = [[DAppDetailViewController alloc] init];
     DappModel *model = [[DappModel alloc] init];
-    model.dappUrl = [NSString stringWithFormat:@"https://vktflare.io/tx/%@", self.model.trxid];
-    model.dappName = @"vktflare";
+    model.dappUrl = [NSString stringWithFormat:@"http://tracker.devicexx.com/transactions/tx/%@", self.model.trxid];
+    model.dappName = @"VKT Tracker";
     vc.model = model;
     vc.choosedAccountName = CURRENT_ACCOUNT_NAME;
     [self.navigationController pushViewController:vc animated:YES];
