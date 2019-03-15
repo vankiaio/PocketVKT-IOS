@@ -6,7 +6,7 @@
 "Gc1-sb-AhU.text" = "Update";
 
 /* Class = "UILabel"; text = "糖果积分"; ObjectID = "N8l-E0-hSG"; */
-"N8l-E0-hSG.text" = "PE Candies";
+"N8l-E0-hSG.text" = "PV Candies";
 
 /* Class = "UILabel"; text = "节点投票"; ObjectID = "Osg-wj-Gu3"; */
 "Osg-wj-Gu3.text" = "VKT Voting";

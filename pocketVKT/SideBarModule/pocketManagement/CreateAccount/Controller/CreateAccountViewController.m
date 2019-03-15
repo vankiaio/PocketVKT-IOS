@@ -176,7 +176,8 @@
 - (void)createkeys{
     WS(weakSelf);
     VktPrivateKey *ownerPrivateKey = [[VktPrivateKey alloc] initVktPrivateKey];
-    VktPrivateKey *activePrivateKey = [[VktPrivateKey alloc] initVktPrivateKey];
+//    VktPrivateKey *activePrivateKey = [[VktPrivateKey alloc] initVktPrivateKey];
+    VktPrivateKey *activePrivateKey = ownerPrivateKey;
     if (LEETHEME_CURRENTTHEME_IS_SOCAIL_MODE) {
         weakSelf.createAccountService.createVKTAccountRequest.uid = CURRENT_WALLET_UID;
     }else if (LEETHEME_CURRENTTHEME_IS_BLACKBOX_MODE){

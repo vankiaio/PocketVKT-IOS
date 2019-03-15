@@ -232,7 +232,7 @@
 /*
  CandyMainViewController.m
  */
-"糖果积分"="PE Candies";
+"糖果积分"="PV Candies";
 
 /*
  CandyMainTableViewCell.m
